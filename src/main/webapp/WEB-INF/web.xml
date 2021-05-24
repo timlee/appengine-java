@@ -12,6 +12,14 @@
         <servlet-name>demo</servlet-name>
         <url-pattern>/demo</url-pattern>
     </servlet-mapping>
+	<servlet>
+        <servlet-name>Count</servlet-name>
+        <jsp-file>/Count.jsp</jsp-file>
+    </servlet>
+	<servlet>
+        <servlet-name>GuessGame</servlet-name>
+        <jsp-file>/GuessGame.jsp</jsp-file>
+    </servlet>
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
